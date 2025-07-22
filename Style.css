@@ -1,0 +1,153 @@
+/* Reset and base styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Section styling */
+header, section, footer {
+  background-color: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+/* Header */
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.2em;
+}
+
+header p {
+  color: #777;
+  font-size: 1.1rem;
+}
+
+/* Image styling */
+#about img {
+  border-radius: 50%;
+  margin: 10px 0;
+}
+
+/* Skills list */
+#skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+#skills li {
+  background: #e3f2fd;
+  margin: 5px auto;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 300px;
+}
+
+/* Projects */
+.project {
+  margin: 20px 0;
+}
+
+.project img {
+  border-radius: 8px;
+  margin-top: 10px;
+  max-width: 100%;
+}
+
+/* Resume link */
+#resume a {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #2196f3;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+#resume a:hover {
+  background-color: #1976d2;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+  background-color: #83a6b4;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8; /* Light background */
+}
+
+header {
+  background-color: #fce4ec;
+  color:Black ;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#about {
+  background-color: #e0f7fa; /* Light blue */
+  padding: 20px;
+}
+
+#skills {
+  background-color: #fce4ec; /* Light orange */
+  padding: 20px;
+}
+
+#projects {
+  background-color: #fce4ec; /* Light pink */
+  padding: 20px;
+}
+
+#resume {
+  background-color: #e8f5e9; /* Light green */
+  padding: 20px;
+}
+
+#contact {
+  background-color: #ede7f6; /* Light purple */
+  padding: 20px;
+}
+.project img {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+header {
+  font-family: 'Georgia', serif;
+}
+
+#about {
+  font-family: 'Georgia', sans-serif;
+}
+
+/* Grid layout for skills */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 10px 0;
+}
+
+.skills-grid div {
+  background-color: #e6f2ff;
+  padding: 12px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
